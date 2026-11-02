@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="Redux.Template.Utilities.csproj" />
+  <Project Path="ManeuverNodeTelemetry.csproj" />
+  <Project Path="Redux.Template.Editor.csproj" />
+</Solution>

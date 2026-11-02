@@ -1,0 +1,27 @@
+{
+  "spec": "2.0",
+  "mod_id": "ManeuverNodeTelemetry",
+  "name": "ManeuverNodeTelemetry",
+  "author": "Walker",
+  "description": "A sample mod for KSP2",
+  "source": "",
+  "version": "0.0.1",
+  "version_check": "",
+  "addressable_script_label": "ManeuverNodeTelemetry_patches",
+  "addressable_prefab_patch_label": "ManeuverNodeTelemetry_prefab_patches",
+  "ksp2_version": {
+    "min": "*",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "SpaceWarp2",
+      "version": {
+        "min": "2.0.0",
+        "max": "*"
+      }
+    }
+  ],
+  "conflicts": [],
+  "main_assembly": "ManeuverNodeTelemetry.dll"
+}

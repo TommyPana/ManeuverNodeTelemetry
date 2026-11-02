@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9065a46703c44e8fabd263388eaeb6e7, type: 3}
+  m_Name: ManeuverNodeTelemetry
+  m_EditorClassIdentifier: ksp2community.ksp2unitytools.editor::Ksp2UnityTools.Editor.Modding.Mod
+  id: ManeuverNodeTelemetry
+  name: ManeuverNodeTelemetry
+  author: Walker
+  description: A sample mod for KSP2
+  version: 0.0.1
+  versionCheck: 
+  minKsp2Version: '*'
+  maxKsp2Version: '*'
+  source: 
+  allGroup: {fileID: 11400000, guid: 8c238122d5c2632449ec4a4b6e663d15, type: 2}
+  partsGroup: {fileID: 11400000, guid: e2a684369948d534a9d235b7d1970261, type: 2}
+  missionsGroup: {fileID: 11400000, guid: dc1eb1404fe54ae4382460ce8890e51d, type: 2}
+  celestialBodiesGroup: {fileID: 11400000, guid: d974c1ede118dc840bf58a9f0f9e4288, type: 2}
+  scienceExperimentGroup: {fileID: 11400000, guid: 39f62b8153867484a9ccc385cf9380bb, type: 2}
+  techNodeDataGroup: {fileID: 11400000, guid: 8b837ed9f3b0dba469ae70baed528616, type: 2}
+  resourcesGroup: {fileID: 11400000, guid: 9139b09cc66da0f449209bfd0a117e3c, type: 2}
+  addressablesProfileId: 80ca6e4e80ea74247a059198d153aa50
+  dependencies:
+  - id: SpaceWarp2
+    min: 2.0.0
+    max: '*'
+  incompatibilities: []
+  ownFeature:
+    id: 
+    recommended: 0
+    requires: []
+    conflicts: []
+    provides: []
+  features: []

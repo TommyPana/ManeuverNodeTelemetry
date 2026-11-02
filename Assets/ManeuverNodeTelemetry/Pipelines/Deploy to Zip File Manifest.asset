@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8372074663491450846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: ThunderKit.Core::ThunderKit.Core.Manifests.Datums.AssemblyDefinitions
+  StagingPaths:
+  - Deploy/ManeuverNodeTelemetry
+  definitions:
+  - {fileID: 5897886265953266890, guid: 0be1ed5b0d718da499ac20b1e3fc813a, type: 3}
+--- !u!114 &-7276141802473850530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ea0a28af7349aa972a4bcb474b48d7, type: 3}
+  m_Name: AddressablesGroupDatum
+  m_EditorClassIdentifier: ksp2community.ksp2unitytools.editor::Ksp2UnityTools.Editor.Modding.Thunderkit.AddressablesGroupDatum
+  StagingPaths:
+  - Deploy/ManeuverNodeTelemetry/addressables
+  mod: {fileID: 11400000, guid: e6395fb76ce334f4c908e3f95d4b315b, type: 2}
+  targetFolder: Deploy/ManeuverNodeTelemetry/addressables
+--- !u!114 &-6955709384379716596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a089732392b94873b7dffb12543079c3, type: 3}
+  m_Name: TextAssets
+  m_EditorClassIdentifier: ksp2community.ksp2unitytools.editor::Ksp2UnityTools.Editor.Modding.Thunderkit.TextAssets
+  StagingPaths:
+  - Deploy/ManeuverNodeTelemetry
+  possibleFolders:
+  - Assets\ManeuverNodeTelemetry
+--- !u!114 &-4233170017623429156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470dbf1cc5834ffc97c653aa1126938c, type: 3}
+  m_Name: CopyFolderDatum
+  m_EditorClassIdentifier: ksp2community.ksp2unitytools.editor::Ksp2UnityTools.Editor.Modding.Thunderkit.CopyFolderDatum
+  StagingPaths: []
+  sourcePath: Assets\ManeuverNodeTelemetry/Copied
+  destinationPath: Deploy/ManeuverNodeTelemetry
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: Deploy to Zip File Manifest
+  m_EditorClassIdentifier: ThunderKit.Core::ThunderKit.Core.Manifests.Manifest
+  Data:
+  - {fileID: -4233170017623429156}
+  - {fileID: -6955709384379716596}
+  - {fileID: -7276141802473850530}
+  - {fileID: -8372074663491450846}
+  identity: {fileID: 2344160304142491451}
+  QuickAccess: 0
+--- !u!114 &2344160304142491451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManeuverNodeTelemetry - Deploy
+  m_EditorClassIdentifier: ThunderKit.Core::ThunderKit.Core.Manifests.Datum.ManifestIdentity
+  StagingPaths: []
+  Author: Walker
+  Name: 
+  Description: A sample mod for KSP2
+  Version: 0.0.1
+  Dependencies: []

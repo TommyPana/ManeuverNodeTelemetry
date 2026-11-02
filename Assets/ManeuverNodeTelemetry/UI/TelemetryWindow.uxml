@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="window-root" style="position: absolute; top: 140px; left: 140px; width: 320px; background-color: rgba(7, 13, 20, 0.92); border-color: rgba(0, 240, 255, 0.45); border-width: 1px; border-radius: 4px; padding: 10px;">
+        <ui:Label text="// PLANNED MANEUVER TELEMETRY" style="font-size: 13px; -unity-font-style: bold; color: rgb(0, 240, 255); border-bottom-width: 1px; border-bottom-color: rgba(0, 240, 255, 0.25); padding-bottom: 5px; margin-bottom: 8px;" />
+        <ui:VisualElement style="background-color: rgba(16, 26, 38, 0.75); border-left-width: 2px; border-left-color: rgb(0, 240, 255); border-radius: 2px; padding: 6px 8px; margin-bottom: 6px;">
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; margin-bottom: 2px;">
+                <ui:Label text="BURN DELTA-V" style="font-size: 11px; color: rgb(130, 155, 180);" />
+                <ui:Label name="val-dv" text="0.0 m/s" style="font-size: 11px; -unity-font-style: bold; color: rgb(235, 245, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; margin-bottom: 2px;">
+                <ui:Label text="BURN DURATION" style="font-size: 11px; color: rgb(130, 155, 180);" />
+                <ui:Label name="val-duration" text="0.0 s" style="font-size: 11px; -unity-font-style: bold; color: rgb(235, 245, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="background-color: rgba(16, 26, 38, 0.75); border-left-width: 2px; border-left-color: rgb(0, 240, 255); border-radius: 2px; padding: 6px 8px; margin-bottom: 6px;">
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; margin-bottom: 2px;">
+                <ui:Label text="PLANNED AP" style="font-size: 11px; color: rgb(130, 155, 180);" />
+                <ui:Label name="val-ap" text="0.00 km" style="font-size: 11px; -unity-font-style: bold; color: rgb(235, 245, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; margin-bottom: 2px;">
+                <ui:Label text="PLANNED PE" style="font-size: 11px; color: rgb(130, 155, 180);" />
+                <ui:Label name="val-pe" text="0.00 km" style="font-size: 11px; -unity-font-style: bold; color: rgb(235, 245, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; margin-bottom: 2px;">
+                <ui:Label text="INCLINATION" style="font-size: 11px; color: rgb(130, 155, 180);" />
+                <ui:Label name="val-inc" text="0.00 deg" style="font-size: 11px; -unity-font-style: bold; color: rgb(235, 245, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between; margin-bottom: 2px;">
+                <ui:Label text="ECCENTRICITY" style="font-size: 11px; color: rgb(130, 155, 180);" />
+                <ui:Label name="val-ecc" text="0.0000" style="font-size: 11px; -unity-font-style: bold; color: rgb(235, 245, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label text="PRESS F8 TO TOGGLE" style="font-size: 9px; color: rgb(90, 110, 130); margin-top: 4px; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>
